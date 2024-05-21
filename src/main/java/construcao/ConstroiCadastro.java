@@ -1,7 +1,8 @@
 package construcao;
 
+import jakarta.enterprise.context.ApplicationScoped;
 import utils.InfoCadastro;
-
+@ApplicationScoped
 public class ConstroiCadastro {
 
     public String cadastro(){
